@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transactions",
+  "info": {
+    "singularName": "transaction",
+    "pluralName": "transactions",
+    "displayName": "transaction"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Type": {
+      "type": "string"
+    },
+    "Status": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "datetime"
+    },
+    "Origin": {
+      "type": "string"
+    },
+    "Details": {
+      "type": "text"
+    }
+  }
+}
